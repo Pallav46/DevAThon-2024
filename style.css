@@ -13,6 +13,13 @@ body {
   padding: 0;
 }
 
+body {
+  cursor: url("cursor.png") 1 1, auto;
+}
+
+body {
+  cursor: default;
+}
 /* Header Styles */
 header {
   background-color: rgba(35, 35, 45, 0.7);
@@ -50,6 +57,10 @@ header {
   font-family: "Crimson Text", serif;
 }
 
+.hack-info {
+  color: #ccc;
+}
+
 .hack-info h2 {
   color: #ffbe0d; /* Adjust the color as needed */
   margin-bottom: 10px;
@@ -81,6 +92,9 @@ header {
   color: #0da3ff;
 }
 
+.hack-info {
+  color: #ccc;
+}
 /* Form Container Styles */
 .form-container {
   margin-right: 2%;
@@ -97,10 +111,17 @@ header {
   background-color: transparent;
 }
 
+body {
+  cursor: default;
+}
+
 .inputbox ::placeholder {
   color: #b3b3b3;
 }
 
+.hack-info {
+  color: #ccc;
+}
 .inputbox {
   position: relative;
   margin: 30px 0;
@@ -127,6 +148,10 @@ button {
   margin-top: 5%;
 }
 
+body {
+  cursor: default;
+}
+
 /* Footer Styles */
 footer {
   bottom: 0;
@@ -150,8 +175,20 @@ body {
   position: relative;
 }
 
+.register {
+  margin-top: 5%;
+}
+
+button {
+  background: none;
+}
+
 #header {
   padding: 10px;
+}
+
+#section {
+  padding: 50px;
 }
 
 #body {
@@ -164,6 +201,18 @@ body {
   position: relative;
   margin: 2% 0; /* Adjust margin for better spacing on smaller screens */
   width: 100%; /* Make the input box full width */
+}
+
+.register {
+  margin-top: 5%;
+}
+
+body {
+  cursor: default;
+}
+
+button {
+  background: none;
 }
 
 /* Social Icons Styles */
@@ -206,8 +255,16 @@ body {
   transition: width 0.3s ease;
 }
 
+.register {
+  margin-top: 5%;
+}
+
 .social-icon:hover {
   background-color: transparent; /* Change background color on hover */
+}
+
+button {
+  background: none;
 }
 
 .social-icon:hover i {
