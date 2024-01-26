@@ -65,7 +65,8 @@ header {
 .social-icons {
   margin-top: 20px;
   display: flex;
-  align-items: center; 
+  align-items: center;
+  justify-content: center;
 }
 
 .social-icons a {
