@@ -1,0 +1,88 @@
+/* Reset some default styles and add a background image */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../src/background_img.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Set text color to contrast with the background */
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header styles */
+#home {
+    text-align: center;
+    padding: 2em;
+}
+
+img {
+    width: 150px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make it circular */
+}
+
+/* Portfolio styles */
+#portfolio {
+    text-align: center;
+    padding: 2em;
+}
+
+#portfolio div {
+    margin-bottom: 20px;
+}
+
+/* Contact styles */
+#contact {
+    text-align: center;
+    padding: 2em;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color for readability */
+    color: white;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    img {
+        width: 100%; /* Make the image responsive */
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for medium-sized screens */
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Add more media queries as needed */
